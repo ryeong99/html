@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"]{
+            display: none;
+        }
+
+        .custom-ch + label{
+            display: inline-block;
+            box-sizing: border-box;
+            border: 1px solid #6a007dd2;
+            padding: 5px;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+        }   
+        
+        .custom-ch:checked + label {
+            background-clip: content-box;
+            background-color: #07bfdc77;
+        }
+        
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="ch1" class="custom-ch">
+    <label for="ch1"></label>
+    <label for="ch1">췍첵</label>
+
+    <input type="checkbox" id="ch2" class="custom-ch">
+    <label for="ch2"></label>
+    <label for="ch2">쉑쉑</label>
+</body>
+</html>

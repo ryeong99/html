@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Back {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+
+            box-sizing: border-box;
+            width: 100%;
+            height: 1000px;
+            border: 1px solid black;
+        }
+        .A {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: space-around;
+            flex-wrap: wrap;
+            
+            box-sizing: border-box;
+            margin: 10px 10px 10px 10px;
+            padding: 20px;
+            width: 700px;
+            height: 900px;
+            border: 1px solid black;
+        }
+        .B {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: space-around;
+            flex-wrap: wrap;
+            
+            box-sizing: border-box;
+            margin: 10px 10px 10px 10px;
+            padding: 20px;
+            width: 700px;
+            height: 900px;
+            border: 1px solid black;
+        }
+        .a {display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: flex-start;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100%;
+            height: 40%;
+        }
+        .b {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100%;
+            height: 40%;
+            
+        }
+        .c {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100%;
+            height: 40%;
+        }
+        .d {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100%;
+            height: 40%;
+        }
+        .x {
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+        .a :nth-of-type(1) {
+            align-self: flex-end;
+        }
+
+        .c :nth-of-type(3) { 
+            margin: 100px 0px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Back">
+        <div class="A">
+            <div class="a">
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+            </div>
+            <div class="b">
+                <div class="x"></div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        <div class="B">
+            <div class="c">
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+            </div>
+            <div class="d">
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
